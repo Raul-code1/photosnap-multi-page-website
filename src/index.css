@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'DM Sans', sans-serif;
+    }
+
+    h5{
+        margin: 10px 0px;
+        font-weight: bold;
+    }
+  }
