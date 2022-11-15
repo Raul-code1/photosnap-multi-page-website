@@ -41,7 +41,7 @@ export const Footer = () => {
         </div>
       </div>
 
-        <div className=" text-light-grey text-[12px] md:col-start-3 md:row-start-3	lg:col-start-5 " >Copyright 2019. All Rights Reserved</div>
+        <div className=" text-[grey] text-[12px] md:col-start-3 md:row-start-3	lg:col-start-5 " >Copyright 2019. All Rights Reserved</div>
 
     </footer>
   )

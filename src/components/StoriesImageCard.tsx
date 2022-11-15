@@ -12,7 +12,9 @@ export const StoriesImageCard = ({ date,title,author,imgDesktop,imgMobile,homePa
 
   
   return (
-    <div className="relative bg-[aqua]   h-[60vh]  hover:translate-y-[-35px] transition-all duration-500  w-full">
+    <div className="relative bg-[aqua]   h-[60vh]  hover:translate-y-[-35px] transition-all duration-500  w-full
+            hover:border-b-[6px] hover:border-gradient-color-2
+    ">
             <img  className="h-[100%] w-full md:hidden "  src={imgMobile} alt="" />
             <img  className="h-[100%] w-full hidden md:block "  src={ imgDesktop} alt="" />
 

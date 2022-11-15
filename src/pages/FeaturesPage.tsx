@@ -1,3 +1,4 @@
+import { BgBeta } from "../components"
 import { FeaturesHero,FeaturesGrid } from "../components/featuresComponents"
 
 export const FeaturesPage = () => {
@@ -6,7 +7,9 @@ export const FeaturesPage = () => {
      <FeaturesHero />
 
     <FeaturesGrid inHomePage={ false }/>
-   
+    
+    <BgBeta />
+
    </>
   )
 }

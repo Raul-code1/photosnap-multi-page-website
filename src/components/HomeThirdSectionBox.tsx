@@ -15,7 +15,7 @@ export const HomeThirdSectionBox = () => {
 
                      <h1 className="font-[400]  text-[30px] mb-4 tracking-[2px] md:text-[35px] 
                          md:tracking-[4px] " >DESIGNED FOR EVERYONE.</h1>
-                     <p className="font-[100] text-light-grey mb-4  lg:text-justify">
+                     <p className="font-[100] text-[grey] mb-4  lg:text-justify">
                      Photosnap can help you create stories that resonate with your audience.
                       Our tool is designed for photographers of all levels, brands, businesses you name it. 
                      </p>

@@ -22,7 +22,7 @@ export const NavBar = () => {
             <Logo />
         </div>
 
-        <div className="hidden font-dm  text-sm  md:flex md:gap-5 lg:gap-20 " >
+        <div className="hidden font-dm  font-bold text-sm  md:flex md:gap-5 lg:gap-20 " >
             <Link  className="hover:text-light-grey transition-all duration-300 tracking-[2px]" to='/stories'>STORIES</Link>
             <Link  className="hover:text-light-grey transition-all duration-300 tracking-[2px]" to='/features'>FEATURES</Link>
             <Link  className="hover:text-light-grey transition-all duration-300 tracking-[2px]" to='/pricing'>PRICING</Link>

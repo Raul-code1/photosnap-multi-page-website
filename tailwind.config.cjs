@@ -32,6 +32,11 @@ module.exports = {
         'pricing-hero-image-desktop':"url('../src/assets/pricing/desktop/hero.jpg')",
         'pricing-hero-image-tablet':"url('../src/assets/pricing/tablet/hero.jpg')",
         
+        'bg-beta-image-mobile':"url('../src/assets/shared/mobile/bg-beta.jpg')",
+        'beta-image-desktop':"url('../src/assets/shared/desktop/bg-beta.jpg')",
+        'beta-image-tablet':"url('../src/assets/shared/tablet/bg-beta.jpg')",
+
+
       }
     },
     fontFamily:{

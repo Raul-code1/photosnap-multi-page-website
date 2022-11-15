@@ -22,7 +22,7 @@ export const HomeSecondSectionBox:FC = () => {
 
                      <h1 className="font-[400]  text-[30px] mb-4 tracking-[2px] md:text-[35px] 
                          md:tracking-[4px] " >BEAUTIFUL STORIES EVERY TIME.</h1>
-                     <p className="font-[100] text-light-grey mb-4  lg:text-justify">
+                     <p className="font-[100] text-[grey] mb-4  lg:text-justify">
                      We provide design templates to ensure your stories look terrific. 
                      Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.
                      </p>

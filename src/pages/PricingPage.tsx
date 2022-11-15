@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { BgBeta } from '../components';
 
 import { PricingCards, PricingHero, PricingTableCompare, SwitchPricing } from "../components/pricingComponents"
 
@@ -17,6 +18,8 @@ export const PricingPage = () => {
       <PricingCards priceState={ changePricing} />
 
       <PricingTableCompare />
+
+      <BgBeta />
     
     </>
   )

@@ -20,8 +20,10 @@ export const HomePage = () => {
                             lg:justify-center
                             " >
             {/* Gradients bar */}
-            <div className="h-[5px] w-[100px] bg-light-grey absolute top-0 md:hidden"></div>
-            <div className=" hidden md:block h-[280px] w-[5px] bg-light-grey absolute left-0 top-[26%] "></div>
+            <div className="h-[5px] w-[100px] bg-gradient-to-r from-gradient-color-3 to-gradient-color-2 via-gradient-color-1 absolute top-0 md:hidden  "></div>
+            <div className=" hidden md:block h-[280px] w-[5px] absolute left-0 top-[26%] 
+              bg-gradient-to-b from-gradient-color-3 to-gradient-color-2 via-gradient-color-1
+            "></div>
 
               
               <div className="bg-[] lg:w-[75%] px-[20px] ">

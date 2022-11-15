@@ -5,8 +5,10 @@ export const FeaturesHero = () => {
 
     <div className="bg-[black] text-[white] relative p-10 md:w-[65%] md:flex md:items-center md:pr-20 lg:w-[40%] " >
     {/* Gradient bar */}
-        <div className="h-[5px] w-[100px] bg-light-grey absolute top-0 md:hidden"></div>
-        <div className="h-[150px] hidden md:block w-[5px] bg-light-grey absolute left-0 lg:h-[100px] "></div>
+        <div className="h-[5px] w-[100px] bg-gradient-to-r from-gradient-color-3 to-gradient-color-2 via-gradient-color-1 absolute top-0 md:hidden"></div>
+        <div className="h-[150px] hidden md:block w-[5px]  absolute left-0 lg:h-[100px] 
+          bg-gradient-to-b from-gradient-color-3 to-gradient-color-2 via-gradient-color-1
+        "></div>
 
 
       <div className="lg:pl-11">
