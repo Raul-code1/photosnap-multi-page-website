@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage:{
         'home-first-image-mobile':"url('../src/assets/home/mobile/create-and-share.jpg')",
         'home-first-image-desktop':"url('../src/assets/home/desktop/create-and-share.jpg')",
-        'home-first-image-tablet':"url('./src/assets/home/tablet/create-and-share.jpg')",
+        'home-first-image-tablet':"url('../src/assets/home/tablet/create-and-share.jpg')",
 
         'home-second-image-mobile':"url('../src/assets/home/mobile/beautiful-stories.jpg')",
         'home-second-image-desktop':"url('../src/assets/home/desktop/beautiful-stories.jpg')",
